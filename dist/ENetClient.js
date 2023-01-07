@@ -49,7 +49,7 @@ class ENetClient {
             });
         });
         if (debug)
-            console.log((0, util_1.inspect)(body, true, null, true));
+            console.log(util_1.inspect(body, true, null, true));
         if (options.response) {
             return { response, body };
         }

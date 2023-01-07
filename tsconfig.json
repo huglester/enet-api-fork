@@ -1,8 +1,13 @@
 {
     "compilerOptions": {
-        "lib": ["es2021"],
         "module": "commonjs",
-        "target": "es2021",
+        "target": "ES2018",
+        "lib": [
+          "ES2015",
+          "ES2016",
+          "ES2017",
+          "ES2018"
+        ],
         "esModuleInterop": true,
         "forceConsistentCasingInFileNames": true,
         "moduleResolution": "node",
@@ -14,3 +19,4 @@
     ],
     "exclude": []
 }
+
